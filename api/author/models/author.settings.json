@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "authors",
+  "info": {
+    "name": "author"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "socialLiniks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-liniks",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "sectionReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-review"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
+    }
+  }
+}

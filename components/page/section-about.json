@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_section_abouts",
+  "info": {
+    "name": "sectionAbout",
+    "icon": "person-booth"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
