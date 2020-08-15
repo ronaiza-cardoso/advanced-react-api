@@ -62,7 +62,7 @@
       "repeatable": false,
       "component": "page.section-pricing-box"
     },
-    "sectionAboutUs": {
+    "sectionAbout": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-about-us"
