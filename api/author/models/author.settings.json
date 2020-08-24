@@ -10,7 +10,7 @@
   },
   "attributes": {
     "photo": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -29,22 +29,12 @@
     "socialLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "page.social-liniks",
-      "required": true
+      "component": "page.social-links",
+      "required": false
     },
     "description": {
       "type": "text",
       "required": true
-    },
-    "sectionReview": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-review"
-    },
-    "sectionFaq": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.section-faq"
     }
   }
 }

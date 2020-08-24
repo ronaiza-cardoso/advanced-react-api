@@ -2,16 +2,16 @@
   "collectionName": "components_page_section_aboutuses",
   "info": {
     "name": "sectionAboutUs",
-    "icon": "arrow-circle-right"
+    "icon": "user-astronaut"
   },
   "options": {},
   "attributes": {
-    "authors": {
-      "collection": "author"
-    },
-    "description": {
+    "title": {
       "type": "string",
       "required": true
+    },
+    "authors": {
+      "collection": "author"
     }
   }
 }

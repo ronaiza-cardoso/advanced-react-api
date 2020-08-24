@@ -12,15 +12,13 @@
     },
     "description": {
       "type": "richtext",
-      "private": false,
       "required": true
     },
-    "media": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true

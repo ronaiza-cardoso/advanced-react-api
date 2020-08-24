@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_page_section_pricing_boxes",
+  "collectionName": "components_page_pricing_boxes",
   "info": {
-    "name": "sectionPricingBox",
+    "name": "pricingBox",
     "icon": "dollar-sign"
   },
   "options": {},
@@ -21,7 +21,7 @@
     },
     "benefits": {
       "type": "richtext",
-      "default": "Create Items as bullet list",
+      "default": "Create items as bullet list",
       "required": true
     },
     "button": {

@@ -1,8 +1,8 @@
 {
   "collectionName": "components_page_section_reviews",
   "info": {
-    "name": "sectionReview",
-    "icon": "street-view"
+    "name": "sectionReviews",
+    "icon": "star"
   },
   "options": {},
   "attributes": {
@@ -14,7 +14,8 @@
       "type": "component",
       "repeatable": true,
       "component": "page.reviews",
-      "max": 4
+      "required": true,
+      "min": 4
     }
   }
 }

@@ -33,7 +33,7 @@ const Wysiwyg = ({
     // Handle videos and other type of files by adding some code
   };
 
-  const handleToggle = () => setIsOpen(prev => !prev);
+  const handleToggle = () => setIsOpen((prev) => !prev);
 
   return (
     <div
